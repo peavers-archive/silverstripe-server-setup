@@ -34,6 +34,9 @@ sudo curl -s https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 export COMPOSER_PROCESS_TIMEOUT=172800
 
+## sspak
+sudo curl -sS http://silverstripe.github.io/sspak/install | php -- /usr/local/bin
+
 ## Configure git
 sudo git config --global http.postBuffer 524288000
 sudo git config --global credential.helper "cache --timeout=172800"
